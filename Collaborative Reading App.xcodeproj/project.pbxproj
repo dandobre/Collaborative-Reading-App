@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F1221521E894268006759D7 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1221511E894268006759D7 /* SideMenuVC.swift */; };
+		3F5C960B1E8A93CB006EFC3B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C960A1E8A93CB006EFC3B /* SignInVC.swift */; };
 		3F71CE0D1E85477800B35B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71CE0C1E85477800B35B8D /* AppDelegate.swift */; };
 		3F71CE0F1E85477800B35B8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71CE0E1E85477800B35B8D /* ViewController.swift */; };
 		3F71CE121E85477800B35B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F71CE101E85477800B35B8D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3F1221511E894268006759D7 /* SideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		3F5C960A1E8A93CB006EFC3B /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		3F71CE091E85477800B35B8D /* Collaborative Reading App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collaborative Reading App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F71CE0C1E85477800B35B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F71CE0E1E85477800B35B8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				3F71CE151E85477800B35B8D /* LaunchScreen.storyboard */,
 				3F71CE181E85477800B35B8D /* Info.plist */,
 				3F1221511E894268006759D7 /* SideMenuVC.swift */,
+				3F5C960A1E8A93CB006EFC3B /* SignInVC.swift */,
 			);
 			path = "Collaborative Reading App";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				3F71CE0F1E85477800B35B8D /* ViewController.swift in Sources */,
 				3F1221521E894268006759D7 /* SideMenuVC.swift in Sources */,
+				3F5C960B1E8A93CB006EFC3B /* SignInVC.swift in Sources */,
 				3F71CE0D1E85477800B35B8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
