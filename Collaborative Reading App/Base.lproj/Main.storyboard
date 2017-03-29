@@ -64,7 +64,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U0m-Ps-TGK">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U0m-Ps-TGK">
                                                     <rect key="frame" x="8" y="1" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="40" id="PYa-2J-QD0"/>
@@ -74,6 +74,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="2Mo-iA-HTX" secondAttribute="trailing" constant="20" id="1IL-iI-2Wf"/>
+                                                <constraint firstItem="U0m-Ps-TGK" firstAttribute="centerY" secondItem="2Mo-iA-HTX" secondAttribute="centerY" id="OKN-9e-i5H"/>
                                                 <constraint firstItem="2Mo-iA-HTX" firstAttribute="top" secondItem="wAL-tI-6TV" secondAttribute="topMargin" constant="3" id="hza-NN-aYp"/>
                                                 <constraint firstItem="U0m-Ps-TGK" firstAttribute="leading" secondItem="wAL-tI-6TV" secondAttribute="leading" constant="8" id="rdk-0h-p0P"/>
                                                 <constraint firstItem="2Mo-iA-HTX" firstAttribute="leading" secondItem="U0m-Ps-TGK" secondAttribute="trailing" constant="23" id="xhU-q3-KTb"/>
@@ -99,7 +100,7 @@
         <!--View Controller-->
         <scene sceneID="1Dt-Gm-VK8">
             <objects>
-                <viewController id="AjE-kY-rH2" customClass="ViewController" customModule="Side_Menu_Test_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AjE-kY-rH2" customClass="ViewController" customModule="Collaborative_Reading_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HcM-5W-X8O"/>
                         <viewControllerLayoutGuide type="bottom" id="vNO-6e-o8S"/>
@@ -173,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fto-FE-hp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="847.82608695652175"/>
+            <point key="canvasLocation" x="198" y="1434"/>
         </scene>
         <!--Adding Books-->
         <scene sceneID="MYk-kp-c5u">
@@ -191,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NUK-Gg-Bhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="912" y="886"/>
+            <point key="canvasLocation" x="910" y="1672"/>
         </scene>
     </scenes>
     <resources>
