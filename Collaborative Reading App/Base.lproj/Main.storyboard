@@ -21,7 +21,7 @@
                     <view key="view" contentMode="scaleToFill" id="Xqh-tw-PTU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <segue destination="bpb-K9-J67" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="Af4-7G-tvy"/>
@@ -47,6 +47,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="A6O-7u-XOs">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2bW-Vn-zjZ">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -72,6 +73,7 @@
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="2Mo-iA-HTX" secondAttribute="trailing" constant="20" id="1IL-iI-2Wf"/>
                                                 <constraint firstItem="U0m-Ps-TGK" firstAttribute="centerY" secondItem="2Mo-iA-HTX" secondAttribute="centerY" id="OKN-9e-i5H"/>
@@ -108,10 +110,12 @@
                     <view key="view" contentMode="scaleToFill" id="jMq-xq-RhD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="LhL-k1-AJp">
-                        <barButtonItem key="leftBarButtonItem" image="Menu-50" id="Ge7-io-qmI"/>
+                        <barButtonItem key="leftBarButtonItem" image="Menu-50" id="Ge7-io-qmI">
+                            <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="sideMenuButton" destination="Ge7-io-qmI" id="Ttk-iZ-XRI"/>
@@ -196,6 +200,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Menu-50" width="16" height="16"/>
+        <image name="Menu-50" width="50" height="50"/>
     </resources>
 </document>
