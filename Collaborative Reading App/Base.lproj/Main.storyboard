@@ -10,6 +10,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Avatar Selection-->
+        <scene sceneID="3Th-nK-402">
+            <objects>
+                <viewController id="U7Q-8G-cch" userLabel="Avatar Selection" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4eX-Y4-87u"/>
+                        <viewControllerLayoutGuide type="bottom" id="nHH-If-zwI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jMK-Ak-UhN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NWz-3I-URr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-794" y="430"/>
+        </scene>
         <!--Reveal View Controller-->
         <scene sceneID="vUR-SQ-734">
             <objects>
@@ -52,7 +70,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2bW-Vn-zjZ" id="wAL-tI-6TV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mo-iA-HTX">
@@ -99,7 +117,7 @@
         <!--View Controller-->
         <scene sceneID="1Dt-Gm-VK8">
             <objects>
-                <viewController id="AjE-kY-rH2" customClass="ViewController" customModule="Side_Menu_Test_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AjE-kY-rH2" customClass="ViewController" customModule="Collaborative_Reading_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HcM-5W-X8O"/>
                         <viewControllerLayoutGuide type="bottom" id="vNO-6e-o8S"/>
@@ -173,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fto-FE-hp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="847.82608695652175"/>
+            <point key="canvasLocation" x="121" y="1146"/>
         </scene>
         <!--Adding Books-->
         <scene sceneID="MYk-kp-c5u">
