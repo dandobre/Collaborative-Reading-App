@@ -73,6 +73,7 @@
 				B0F09CD81E8C83DE00DBC077 /* SWRevealViewController.h */,
 				B0F09CD91E8C83EC00DBC077 /* SWRevealViewController.m */,
 				3F71CE101E85477800B35B8D /* Main.storyboard */,
+				3FAF5CE61E8E8C3E0022A35C /* FirstLaunchTutorial.storyboard */,
 				3F71CE131E85477800B35B8D /* Assets.xcassets */,
 				3F71CE151E85477800B35B8D /* LaunchScreen.storyboard */,
 				3F71CE181E85477800B35B8D /* Info.plist */,
@@ -154,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB7C4221E8E918100354E38 /* Myriad Pro Regular.ttf in Resources */,
+				3FAF5CE71E8E8C3E0022A35C /* FirstLaunchTutorial.storyboard in Resources */,
 				3F71CE171E85477800B35B8D /* LaunchScreen.storyboard in Resources */,
 				3F71CE141E85477800B35B8D /* Assets.xcassets in Resources */,
 				3F71CE121E85477800B35B8D /* Main.storyboard in Resources */,
