@@ -25,7 +25,6 @@
                     </view>
                     <connections>
                         <segue destination="bpb-K9-J67" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="Af4-7G-tvy"/>
-                        <segue destination="dVo-os-SxF" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="wi4-sH-n3L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RsL-RS-HWO" sceneMemberID="firstResponder"/>
@@ -182,7 +181,7 @@
             </objects>
             <point key="canvasLocation" x="41" y="1945"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Adding Books-->
         <scene sceneID="9l0-2O-n9E">
             <objects>
                 <viewController id="Qns-2g-cTB" userLabel="Adding Books" sceneMemberID="viewController">
@@ -211,6 +210,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Menu-50" width="50" height="50"/>
+        <image name="menu" width="50" height="50"/>
     </resources>
 </document>
