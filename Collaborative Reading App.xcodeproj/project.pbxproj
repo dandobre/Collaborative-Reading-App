@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F1221521E894268006759D7 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1221511E894268006759D7 /* SideMenuVC.swift */; };
+		3F32488F1E927CCC00767F09 /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F32488E1E927CCC00767F09 /* Tutorial.storyboard */; };
 		3F5C960B1E8A93CB006EFC3B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C960A1E8A93CB006EFC3B /* SignInVC.swift */; };
 		3F71CE0D1E85477800B35B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71CE0C1E85477800B35B8D /* AppDelegate.swift */; };
 		3F71CE0F1E85477800B35B8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F71CE0E1E85477800B35B8D /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		3F1221511E894268006759D7 /* SideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
 		3F1296451E8BE6C600A316EA /* Collaborative Reading App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Collaborative Reading App-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F32488E1E927CCC00767F09 /* Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
 		3F5C960A1E8A93CB006EFC3B /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		3F71CE091E85477800B35B8D /* Collaborative Reading App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collaborative Reading App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F71CE0C1E85477800B35B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,7 +75,7 @@
 				B0F09CD81E8C83DE00DBC077 /* SWRevealViewController.h */,
 				B0F09CD91E8C83EC00DBC077 /* SWRevealViewController.m */,
 				3F71CE101E85477800B35B8D /* Main.storyboard */,
-				3FAF5CE61E8E8C3E0022A35C /* FirstLaunchTutorial.storyboard */,
+				3F32488E1E927CCC00767F09 /* Tutorial.storyboard */,
 				3F71CE131E85477800B35B8D /* Assets.xcassets */,
 				3F71CE151E85477800B35B8D /* LaunchScreen.storyboard */,
 				3F71CE181E85477800B35B8D /* Info.plist */,
@@ -155,10 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FB7C4221E8E918100354E38 /* Myriad Pro Regular.ttf in Resources */,
-				3FAF5CE71E8E8C3E0022A35C /* FirstLaunchTutorial.storyboard in Resources */,
 				3F71CE171E85477800B35B8D /* LaunchScreen.storyboard in Resources */,
 				3F71CE141E85477800B35B8D /* Assets.xcassets in Resources */,
+				3F32488F1E927CCC00767F09 /* Tutorial.storyboard in Resources */,
 				3F71CE121E85477800B35B8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
