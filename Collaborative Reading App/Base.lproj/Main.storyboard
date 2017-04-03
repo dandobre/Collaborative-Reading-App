@@ -52,7 +52,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="89"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2bW-Vn-zjZ" id="wAL-tI-6TV">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U0m-Ps-TGK">
@@ -111,10 +111,10 @@
             </objects>
             <point key="canvasLocation" x="909.60000000000002" y="-134.48275862068968"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="1Dt-Gm-VK8">
             <objects>
-                <viewController id="AjE-kY-rH2" customClass="ViewController" customModule="Collaborative_Reading_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AjE-kY-rH2" userLabel="Home" customClass="ViewController" customModule="Collaborative_Reading_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HcM-5W-X8O"/>
                         <viewControllerLayoutGuide type="bottom" id="vNO-6e-o8S"/>
@@ -179,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26j-Xh-s52" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="41" y="1945"/>
+            <point key="canvasLocation" x="121" y="1179"/>
         </scene>
         <!--Adding Books-->
         <scene sceneID="9l0-2O-n9E">
@@ -206,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NUK-Gg-Bhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844" y="1946"/>
+            <point key="canvasLocation" x="1119" y="1179"/>
         </scene>
     </scenes>
     <resources>
